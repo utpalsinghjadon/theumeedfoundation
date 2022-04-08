@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fredoka:wght@400;600&family=Zeyada&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Fredoka', Arial, sans-serif;
 }
 body {
   color: #212529;
@@ -19,11 +20,16 @@ body {
 }
 .main-heading {
   font-size: 30px;
+  text-transform: uppercase;
+  font-family:'Dancing Script' ;
+  font-family:'Zeyada' ;
+  font-weight: 600;
 }
 .nav-links {
   display: flex;
   gap: 12px;
   margin-right: 8px;
+  font-weight: 800;
 }
 .nav-links-link {
   text-decoration: none;
@@ -43,10 +49,7 @@ body {
   justify-content: space-between;
   padding: 10px;
 }
-.child-img {
-  width: 500px;
-  justify-content: flex-end;
-}
+
 .website-name {
   justify-self: center;
   margin-top: 96px;
